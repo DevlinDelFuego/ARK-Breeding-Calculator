@@ -351,6 +351,19 @@ var breedingController=angular.module('breedingControllers', []).controller('bre
 			}
 		},
 
+		Deinonychus: {
+			birthtype: "Incubation",
+			type: "Carnivore",
+			basefoodrate: 0.001543,
+			babyfoodrate: 25.5,
+			extrababyfoodrate: 20.0,
+			agespeed: 0.000003,
+			agespeedmult: 2.5,
+			eggspeed: 0.005556,
+			eggspeedmult: 2.5,
+			weight: 140.0
+		},
+
 		Dilophosaurus: {
 			birthtype: "Incubation",
 			type: "Carnivore",
